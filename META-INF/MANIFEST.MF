@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Assembler
-Bundle-SymbolicName: edu.suda.ide.asm
+Bundle-SymbolicName: edu.suda.ide.asm;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: edu.suda.ide.asm.Activator
 Require-Bundle: org.eclipse.ui,

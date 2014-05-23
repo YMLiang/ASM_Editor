@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="edu.suda.ide.asm.editor.ASMEditor"
+            default="false"
+            extensions="asm"
+            icon="icons/asm.gif"
+            id="edu.suda.ide.asm.editor"
+            name="Assembler Editor">
+      </editor>
+   </extension>
+
+</plugin>
