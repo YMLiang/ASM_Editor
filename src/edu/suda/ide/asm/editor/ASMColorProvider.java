@@ -9,14 +9,12 @@ import org.eclipse.swt.graphics.RGB;
 import org.eclipse.swt.widgets.Display;
 
 public class ASMColorProvider {
-	    public static final RGB MULTI_LINE_COMMENT = new RGB(128,0,0); 
 		public static final RGB SINGLE_LINE_COMMENT= new RGB(128, 128, 0);
 		public static final RGB KEYWORD= new RGB(0, 0, 128);
-		public static final RGB TYPE = new RGB(0,0,128);
 		public static final RGB STRING= new RGB(0, 128, 0);
 		public static final RGB DEFAULT= new RGB(0, 0, 0);
 		
-		protected Map fColorTable= new HashMap(10);
+		protected Map fColorTable= new HashMap(4);
 
 		public void dispose() {
 			Iterator e= fColorTable.values().iterator();

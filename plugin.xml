@@ -9,7 +9,7 @@
             extensions="asm"
             icon="icons/asm.gif"
             id="edu.suda.ide.asm.editor"
-            name="Assembler Editor">
+            name="Assembler Editor Test">
       </editor>
    </extension>
 
